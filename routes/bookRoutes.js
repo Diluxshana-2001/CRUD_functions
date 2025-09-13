@@ -31,7 +31,7 @@ router.post('/postBooks', async (req,res)=>{
 //Delete books
 router.delete('/deleteBooks/:id', async (req,res)=>{
     try{
-        const books =await Book.findByIdAndDelete( {id :req.params.id});
+        const books =await Book.findOneAndDelete( {id :req.params.id});
         if(!books){
             return res.status(404).json({error: "Book not found"})
         } 
