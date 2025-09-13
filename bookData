@@ -1,0 +1,50 @@
+const books = [
+  {
+    id: "B001",
+    title: "The Alchemist",
+    author: "Paulo Coelho",
+    isbn: "9780061122415",
+    genre: "Fiction",
+    pages: "208",
+    publishedYear: "1988"
+  },
+  {
+    id: "B002",
+    title: "1984",
+    author: "George Orwell",
+    isbn: "9780451524935",
+    genre: "Dystopian",
+    pages: "328",
+    publishedYear: "1949"
+  },
+  {
+    id: "B003",
+    title: "Sapiens",
+    author: "Yuval Noah Harari",
+    isbn: "9780062316097",
+    genre: "History",
+    pages: "498",
+    publishedYear: "2011"
+  },
+  {
+    id: "B004",
+    title: "Atomic Habits",
+    author: "James Clear",
+    isbn: "9780735211292",
+    genre: "Self-help",
+    pages: "320",
+    publishedYear: "2018"
+  },
+  {
+    id: "B005",
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    isbn: "9780060935467",
+    genre: "Classic",
+    pages: "324",
+    publishedYear: "1960"
+  }
+];
+
+module.exports = books;
+
